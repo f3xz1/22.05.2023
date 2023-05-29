@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+
+.maindiv {
+  display: flex;
+}
+
+.traficLight {
+  display: flex;
+  border: black solid 2px ;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.Off {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.RedLight{
+  background-color: red ;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.field {
+  background-image: url(/task_4/depositphotos_370252230-stock-photo-top-view-empty-football-field.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50em;
+  width: 100%;
+  position: absolute;
+}
+/* .ball {
+  background-image: url(/task_4/67cff43361700faa7daa1e8797362da3.png);
+  width: 100px;
+  height: 100px;
+  z-index: 5;
+} */
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-image: url(/task_4/png-clipart-american-football-football-ball-white-sport.png);
+  background-size: contain;
+  /* background-color: orange; */
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
